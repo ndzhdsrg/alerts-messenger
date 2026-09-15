@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: aydarovo-postgres
+    environment:
+      POSTGRES_DB: aydarovo
+      POSTGRES_USER: nekto
+      POSTGRES_PASSWORD: 12345678
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
