@@ -1,4 +1,4 @@
-package config;
+package ru.yureva.config;
 
 public class BaseUrls {
     public static final String publichnye_slushaniya =

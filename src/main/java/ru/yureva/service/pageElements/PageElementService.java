@@ -1,4 +1,4 @@
-package service.pageElements;
+package ru.yureva.service.pageElements;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

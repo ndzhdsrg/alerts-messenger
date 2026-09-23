@@ -1,4 +1,4 @@
-package service.counter;
+package ru.yureva.service.counter;
 
 public class DocumentCountStorage {
     public static void getPreviousCount(int count){

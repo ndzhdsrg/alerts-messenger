@@ -1,10 +1,10 @@
-package service.history;
+package ru.yureva.service.history;
 
-import entity.HistoryLog;
-import enums.DocumentType;
+import ru.yureva.entity.HistoryLog;
+import ru.yureva.enums.DocumentType;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import repository.HistoryLogRepository;
+import ru.yureva.repository.HistoryLogRepository;
 
 import java.time.LocalDateTime;
 

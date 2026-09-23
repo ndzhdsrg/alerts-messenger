@@ -1,4 +1,4 @@
-package service.http;
+package ru.yureva.service.http;
 
 import java.net.URI;
 import java.net.http.HttpRequest;

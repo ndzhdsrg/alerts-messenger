@@ -1,6 +1,6 @@
-package entity;
+package ru.yureva.entity;
 
-import enums.DocumentType;
+import ru.yureva.enums.DocumentType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
